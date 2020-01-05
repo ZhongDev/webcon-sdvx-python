@@ -43,7 +43,9 @@ async function btup(key) {
 }
 
 async function volup(key) {
-  ws.send("0" + voldict[key][volprevdir[key]]);
+  if (volprevdir[key] != -1) {
+    ws.send("0" + voldict[key][volprevdir[key]]);
+  }
 }
 
 async function voldown(event, key) {
