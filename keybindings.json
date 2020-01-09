@@ -1,17 +1,21 @@
 {
-  "sliders": {
-    "vol-l-left": "q",
-    "vol-l-right": "w",
-    "vol-r-left": "o",
-    "vol-r-right": "p"
-  },
-  "keys": {
-    "start": "1",
-    "bt-a": "d",
-    "bt-b": "f",
-    "bt-c": "j",
-    "bt-d": "k",
-    "fx-l": "c",
-    "fx-r": "m"
+  "chuuni": {
+    "air": ".",
+    "bt1": "1",
+    "bt2": "q",
+    "bt3": "2",
+    "bt4": "w",
+    "bt5": "3",
+    "bt6": "e",
+    "bt7": "4",
+    "bt8": "r",
+    "bt9": "5",
+    "bt10": "t",
+    "bt11": "6",
+    "bt12": "y",
+    "bt13": "7",
+    "bt14": "u",
+    "bt15": "8",
+    "bt16": "i"
   }
 }

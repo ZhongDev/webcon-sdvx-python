@@ -21,9 +21,12 @@ for keybind in keyencodingmap:
 
 async def websocketsHandler(websocket, path):
     async for msg in websocket:
+        print(msg)
         if (msg[0] == "1"):
+            print(f"\\/{encodedbindings[msg[1]]}")
             keyboard.press(encodedbindings[msg[1]])
         else:
+            print(f"/\\{encodedbindings[msg[1]]}")
             keyboard.release(encodedbindings[msg[1]])
 
 
